@@ -23,6 +23,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
+    namespace = "io.crossingthestreams.flutterappauth"
+    testNamespace = "io.crossingthestreams.flutterappauth"
 
     defaultConfig {
         minSdkVersion 16
